@@ -9,10 +9,10 @@
 	    <h1>第一个网页</h1>
 	    <nav>
 	        <ul>
-		        <li><a href="">导航链接一</a></li>
-		        <li><a href="">导航链接二</a></li>
-		        <li><a href="">导航链接三</a></li>
-		        <li><a href="">导航链接四</a></li>
+		        <li><a href="#">导航链接一</a></li>
+		        <li><a href="#">导航链接二</a></li>
+		        <li><a href="#">导航链接三</a></li>
+		        <li><a href="#">导航链接四</a></li>
 		    </ul>
 	    </nav>
     </header>
@@ -49,30 +49,49 @@
 		    </ul>
 		</article>
 		<!-- 第二篇article结束 -->
+		<!-- 改了<dl>，使用figure标签是参考其他团队的做法，暂时没想到比这更合适的实现方法 -->
 		<article>
 		    <h2>图片</h2>
-            <dl>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-        	    <dd>好看的图片</dd>
-        	    <dd><img src="img/coffee.jpg" alt="coffee"></dd>
-            </dl>
+            <figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
+        	<figure>
+        	    <figcaption>好看的图片</figcaption>
+        	    <img src="img/coffee.jpg" alt="coffee">
+        	</figure>
 	    </article>
 	    <!-- 图片article结束 -->
 	    <article>
@@ -85,32 +104,36 @@
 			    <li>排名3</li>
 		    </ol>
 		    <table border="1">
-			    <caption>这是一个表格</caption>
-			    <tr>
-			        <th>表头</th><th>表头</th><th>表头</th>
-			    </tr>
-                <tr>
-            	    <td>1行1列,1行1列</td><td>1行2列,1行2列</td><td><a href="">操作</a></td>
-                </tr>
-                <tr>
-            	    <td>2行1列,2行1列</td><td>2行2列,2行2列</td><td><a href="">操作</a></td>
-                </tr>
-                <tr>
-            	    <td>3行1列,3行1列</td><td>3行2列,3行2列</td><td><a href="">操作</a></td>
-                </tr>
-                <tr>
-            	    <td>4行1列,4行1列</td><td>4行2列,4行2列</td><td><a href="">操作</a></td>
-                </tr>
-                <tr>
-            	    <td>总计</td><td colspan="2">共5行3列</td>
-                </tr>
+			    <caption>下面是一个表格</caption>
+			    <thead>
+			        <tr>
+			            <th>表头</th><th>表头</th><th>表头</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+                    <tr>
+            	        <td>1行1列,1行1列</td><td>1行2列,1行2列</td><td><a href="">操作</a></td>
+                    </tr>
+                    <tr>
+            	        <td>2行1列,2行1列</td><td>2行2列,2行2列</td><td><a href="">操作</a></td>
+                    </tr>
+                    <tr>
+            	        <td>3行1列,3行1列</td><td>3行2列,3行2列</td><td><a href="">操作</a></td>
+                    </tr>
+                    <tr>
+            	        <td>4行1列,4行1列</td><td>4行2列,4行2列</td><td><a href="">操作</a></td>
+                    </tr>
+                    <tr>
+            	        <td>总计</td><td colspan="2">共5行3列</td>
+                    </tr>
+                </tbody>
 		    </table>
 	    </article>
 	    <!-- 第三篇article结束 -->
 	    <aside>
 		    <h2>这是侧栏，侧栏的标题</h2>
 		    <h2>新人注册</h2>
-		    <form>
+		    <form action="#" method="post">
 			    <label for="email"></label>请输入邮箱地址：<input type="text" id="email" placeholder="这是一个文本输入框"></input>
 			    <p>邮箱地址请按要求格式输入</p>
 			    <label for="password1"></label>请输入密码：<input type="text" id="password1" placeholder="这是一个文本输入框"></input>
