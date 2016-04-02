@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.tubiao {
+    height: 100%;
+}
+
+.top_content {
+    color: white;
+    width: 90%;
+    height: 50px;
+    margin: 0px auto;
+}
+
+.top_li {
+    float: right;
+}
+
+.top_content ul li {
+    font-size: large;
+    line-height: 50px;
+    float: left;
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+.top_content ul li a {
+    color: white;
+}
+
+.body {
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eeeeee;
+}
+
+.body_text {
+    width: 90%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #666 0px 0px 5px;
+}
+
+.body_text h5 {
+    color: gray;
+    margin: 10px auto;
+}
+
+.body_text p {
+    text-indent: 2em;
+/ / 首行缩进2个字符
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h3 {
+    color: gray;
+    margin: 10px auto;
+}
+
+.pic {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.ol_li {
+    margin: 20px 40px;
+}
+
+.table {
+    border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+    width: 100%;
+}
+
+.table tr td {
+
+    border-left: solid 1px gray;
+    border-top: solid 1px gray;
+}
+
+.table_top {
+    background-color: black;
+    color: white;
+}
+
+.table_bottom {
+    background-color: gray;
+}
+
+.celan {
+    padding-left: 10px;
+    border-left: solid 3px gray;
+}
+
+.body_form {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+
+    border-radius: 8px;
+    box-shadow: #666 0px 0px 5px;
+}
+
+.form {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.form_table {
+    text-align: left;
+    width: 100%;
+}
+
+.left_td {
+    width: 30%;
+    height: 40px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.tip {
+    color: gray;
+}
+
+.text_area {
+    width: 80%;
+    height: 100px;
+}
+
+.submit {
+    width: 80%;
+    font-size: large;
+    color: white;
+    padding: 5px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.foot {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+.help {
+    width: 100%;
+    background-color: #eeeeee;
+    height: 20px;
+}
+
