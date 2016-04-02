@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    background-color: #eeeeee;
+}
+.left {
+    float: left;
+    width: 200px;
+    border: 1px solid #999;
+    margin: 20px;
+    padding: 20px 0px;
+    background-color: white;
+}
+.right {
+    float: right;
+    width: 120px;
+    border: 1px solid #999;
+    margin: 20px;
+    background-color: white;
+}
+.middle {
+    position: absolute;
+    left: 222px;
+    right: 142px;
+    border: 1px solid #999;
+    margin: 20px;
+    background-color: white;
+}
+
+.logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0px 20px;
+    border: 1px solid #999;
+}
+
+.mylogo {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border: 1px solid #999;
+}
+.middle * {
+    margin: 20px;
+    text-indent: 2em;
+    background-color: white;
+}
